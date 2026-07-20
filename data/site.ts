@@ -1,5 +1,16 @@
 // Conteúdo central do site PRONE — Associação Mutualista de Proteção Veicular.
-// ⚠️ Contatos abaixo são PLACEHOLDER — troque pelos dados reais antes de publicar.
+//
+// ┌──────────────────────────────────────────────────────────────────────────┐
+// │  COMO TROCAR O NÚMERO DE WHATSAPP (se a empresa mudar de número):         │
+// │                                                                          │
+// │  1. Em `whatsapp` abaixo, coloque o número no formato internacional,     │
+// │     só dígitos: 55 (Brasil) + DDD + número. Ex.: 5583999932737           │
+// │  2. Em `whatsappLabel`, coloque como o número aparece na tela.           │
+// │     Ex.: "(83) 99993-2737"                                               │
+// │                                                                          │
+// │  Só isso — os dois campos alimentam o site inteiro (botões, rodapé,      │
+// │  ícone flutuante). Não precisa mexer em mais nada.                       │
+// └──────────────────────────────────────────────────────────────────────────┘
 
 export const site = {
   name: "PRONE",
@@ -9,8 +20,8 @@ export const site = {
     "Associação mutualista de proteção veicular para caminhões e carretas: rateio justo, assistência 24h e rastreamento para o transportador em todo o Brasil.",
   url: "https://prone.com.br",
 
-  whatsapp: "5583999932737",
-  whatsappLabel: "(83) 99993-2737",
+  whatsapp: "5583999932737",      // ← número (só dígitos, com 55 e DDD)
+  whatsappLabel: "(83) 99993-2737", // ← como aparece na tela
   cnpj: "65.570.239/0001-42",
   instagram: "https://instagram.com/proneassociacao",
 };
@@ -20,8 +31,9 @@ export const whatsappLink = (msg = "Olá! Quero fazer uma cotação de proteçã
 
 // Sistema externo de solicitação de orçamento (as cotações caem aqui p/ os vendedores)
 export const cotacaoUrl = "https://cotacao.me/zlyvEaGd";
-// Área do associado (login Hinova SGA)
-export const areaAssociadoUrl = "https://area-sistemas.hinova.com.br/sga/area/v5/login/";
+// Área do associado (link configurado pela Hinova SGA)
+export const areaAssociadoUrl =
+  "https://area-sistemas.hinova.com.br/sga/area/v5/auth/1f9e8056d0af307e654f634e87848640bfff6d2fc2bb05fb9830b5a6ea97e389437a2a6d6ad6fc0bb48b1470bba42657d249b1095ba4428f777171d849c15b1bd38e07faede89c2e444def86a452523c";
 
 export const nav = [
   { label: "A PRONE", href: "/sobre" },
@@ -125,7 +137,7 @@ export const depoimentos = [
   {
     name: "Carlos Menezes",
     role: "Caminhoneiro autônomo — BR-116",
-    text: "Meu caminhão é meu sustento. Tentaram levar a carga e a central agiu na hora. Recuperamos o caminhão no mesmo dia.",
+    text: "Meu caminhão é meu sustento. Tentaram levar ele e a central agiu na hora. Recuperamos o caminhão no mesmo dia.",
   },
   {
     name: "Juliana Rocha",
