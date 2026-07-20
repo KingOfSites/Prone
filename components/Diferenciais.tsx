@@ -12,7 +12,7 @@ export default function Diferenciais() {
               Por que a PRONE
             </p>
             <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-ink-800 sm:text-4xl">
-              Proteção de verdade, sem o preço do seguro tradicional
+              Proteção de verdade.
             </h2>
             <p className="mt-4 text-graphite">
               Somos uma associação sem fins lucrativos. Você e milhares de associados

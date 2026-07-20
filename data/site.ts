@@ -79,7 +79,7 @@ export const coberturas = [
   { icon: "users", title: "Danos a terceiros", text: "Causou um acidente? Cobrimos os danos a outras pessoas e veículos." },
   { icon: "lifebuoy", title: "Assistência 24h", text: "Guincho pesado, chaveiro, pane seca e troca de pneu a qualquer hora." },
   { icon: "glass", title: "Vidros e faróis", text: "Trincou o para-brisa ou quebrou o farol? Reparo e troca inclusos." },
-  { icon: "truck", title: "Proteção de carga", text: "Cobertura para a carga transportada em caso de acidente ou sinistro." },
+  { icon: "truck", title: "Casco e implementos", text: "Cobertura para o casco do veículo e seus implementos em caso de acidente ou sinistro." },
 ];
 
 export const segmentos = [
@@ -93,9 +93,9 @@ export const segmentos = [
   {
     key: "carreta",
     label: "Carretas",
-    title: "Sua carreta e a carga protegidas",
-    text: "Proteção para cavalo mecânico, carreta e implementos, com cobertura de carga e assistência na estrada.",
-    items: ["Cavalo e carreta", "Proteção de carga", "Guincho pesado 24h", "Rastreamento incluso"],
+    title: "Sua carreta sempre protegida",
+    text: "Proteção para cavalo mecânico, carreta e implementos, com assistência 24h na estrada.",
+    items: ["Cavalo e carreta", "Danos a terceiros", "Guincho pesado 24h", "Rastreamento incluso"],
   },
   {
     key: "frota",

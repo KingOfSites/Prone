@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     "proteção para carreta",
     "associação mutualista",
     "rastreamento de caminhão",
-    "proteção de carga",
     "proteção de frota",
     "transportador",
     "PRONE",
