@@ -38,7 +38,7 @@ export default function SobrePage() {
               Nosso propósito
             </p>
             <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-ink-800 sm:text-4xl">
-              Proteção não devia ser privilégio de quem pode pagar seguro caro
+              Proteção de verdade não devia ser privilégio de poucos
             </h2>
             <div className="mt-6 space-y-4 text-graphite">
               <p>

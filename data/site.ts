@@ -74,7 +74,7 @@ export const diferenciais = [
   {
     icon: "wallet",
     title: "Mensalidade acessível",
-    text: "Proteção completa por uma fração do preço de um seguro tradicional, sem franquias abusivas.",
+    text: "Proteção completa por uma mensalidade que cabe no bolso, sem franquias abusivas.",
   },
   {
     icon: "shield",
@@ -142,7 +142,7 @@ export const depoimentos = [
   {
     name: "Juliana Rocha",
     role: "Transportadora — Goiânia/GO",
-    text: "Saí do seguro tradicional e economizo bem por mês. A assistência 24h já me tirou de apuro com pane na estrada duas vezes.",
+    text: "Desde que entrei na PRONE economizo bem por mês. A assistência 24h já me tirou de apuro com pane na estrada duas vezes.",
   },
   {
     name: "Transportes Vale Sul",
@@ -154,7 +154,7 @@ export const depoimentos = [
 export const faq = [
   {
     q: "A PRONE é um seguro?",
-    a: "Não. A PRONE é uma associação mutualista sem fins lucrativos. Os associados formam um fundo comum e dividem os custos dos eventos por rateio, o que torna a proteção mais acessível que um seguro tradicional.",
+    a: "Não. A PRONE é uma associação mutualista sem fins lucrativos. Os associados formam um fundo comum e dividem os custos dos eventos por rateio, o que torna a proteção muito mais acessível.",
   },
   {
     q: "Preciso de vistoria para aderir?",
